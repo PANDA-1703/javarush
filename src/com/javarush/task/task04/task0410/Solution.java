@@ -12,7 +12,10 @@ public class Solution {
     }
 
     public static void checkInterval(int number) {
-
-
+        if(number >= 50 && number <= 100){
+            System.out.println("Число " + number + " содержится в интервале.");
+        }
+        else
+            System.out.println("Число " + number + " не содержится в интервале.");
     }
 }
